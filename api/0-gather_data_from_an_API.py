@@ -1,4 +1,5 @@
- list"""
+#!/usr/bin/python3
+"""get TODO list"""
 
 import json
 import requests
@@ -21,4 +22,3 @@ if __name__ == "__main__":
                                                           len(todos)))
     for i in done:
         print("\t {}".format(i["title"]))
-
